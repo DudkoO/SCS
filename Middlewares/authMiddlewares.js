@@ -10,9 +10,8 @@ const {User} = require('../models')
 router.use(async function (req, res, next) {
     const header = req.header("Authorization") || '';
     try {
-        let decoded = jwt.verify(header.split(' ')[1], secret);
-
-        req.context = { decoded };
+        let user = jwt.verify(header.split(' ')[1], secret);
+        req.context = { user };
         next();
     } catch (error) {
         res.status(401);

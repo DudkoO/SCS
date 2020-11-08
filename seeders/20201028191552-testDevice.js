@@ -9,6 +9,7 @@ module.exports = {
         responsePeriod: today,
         lastResponse: today,
         comment:'test device',
+        userId:1,
         createdAt: today,
         updatedAt: today
       },
