@@ -1,0 +1,4 @@
+[31m[2020-10-25T22:23:45.403Z][error] DB connecting error SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)[39m
+[31m[2020-10-25T22:24:23.542Z][error] DB connecting error SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)[39m
+[31m[2020-10-25T22:25:10.273Z][error] DB connecting error SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)[39m
+[31m[2020-10-28T19:46:26.282Z][error] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoxLCJyb2xlSWQiOjIsImlhdCI6MTYwMzkxNDM4NiwiZXhwIjoxNjA0MDAwNzg2fQ.ubtM1YRASSBXxJmoM3V8zii9GVM3pj65Fx133HYJssw[39m

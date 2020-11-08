@@ -1,0 +1,10 @@
+[2020-10-21T14:48:52.337Z][[33mwarn[39m] this is warn
+[2020-10-21T14:50:33.008Z][[33mwarn[39m] this is warn
+[2020-10-21T15:06:14.513Z][[33mwarn[39m] this is warn
+[2020-10-21T15:07:01.675Z][[33mwarn[39m] this is warn
+[2020-10-21T15:07:41.432Z][[33mwarn[39m] this is warn
+[31m[2020-10-25T22:23:45.403Z][error] DB connecting error SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)[39m
+[31m[2020-10-25T22:24:23.542Z][error] DB connecting error SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)[39m
+[31m[2020-10-25T22:25:10.273Z][error] DB connecting error SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)[39m
+[33m[2020-10-28T19:46:18.700Z][warn] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoxLCJyb2xlSWQiOjIsImlhdCI6MTYwMzkxNDM3OCwiZXhwIjoxNjA0MDAwNzc4fQ.PG_muim17UdT22HueIO9ZAeJKSFClpDcgmrgJmhrXBE[39m
+[31m[2020-10-28T19:46:26.282Z][error] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoxLCJyb2xlSWQiOjIsImlhdCI6MTYwMzkxNDM4NiwiZXhwIjoxNjA0MDAwNzg2fQ.ubtM1YRASSBXxJmoM3V8zii9GVM3pj65Fx133HYJssw[39m
