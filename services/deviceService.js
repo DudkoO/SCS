@@ -6,7 +6,18 @@ const createDevice = async (device)=>await Device.create({name:device.name,respo
 const updateDevice = async (device) => await Device.update({name:device.name,responsePeriod:device.responsePeriod,comment:device.comment},{where:{id:device.id}})
 const deleteDevice = async (id)=> await Device.destroy({where:{id:id}})
 
+const getDeviceByUserId=async (id)=> await Device.findOne({where:{userId:id}})
 
+
+const response =async (device) =>{
+    device.lastResponse = new Date()
+    await Device.update({lastResponse:new Date()},{where:{id:device.id}})
+    if(isValidLastResponse(device))
+        return true
+    else return false
+}
+
+//TODO не работает, заюзать moment
 const isValidLastResponse= (device)=>(device.lastResponse.getTime()+device.responsePeriod.slice(0, 2)*60*60*1000+device.responsePeriod.slice(3, 5)*60*1000>new Date())
 
 const isValidDevice= async (device)=>{
@@ -39,5 +50,6 @@ module.exports={
     updateDevice,
     deleteDevice,
     isValidDevice,
-    isValidLastResponse
+    response,
+    getDeviceByUserId
 }
